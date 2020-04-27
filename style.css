@@ -1,0 +1,65 @@
+body {
+background-color: black;
+margin-top: 5%;
+font-family: serif;
+}
+
+body div.background-img {
+    background-image: url("img/chess.jpg");
+    height: 750px;
+    background-size: cover;
+    background-position: bottom;
+    background-repeat: no-repeat; 
+    position: relative;
+
+}
+
+/* .row{
+    align-items: center;
+} */
+
+.container {
+    padding: 4%;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+}
+
+.card {
+    border-color: darkred;
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgba(255,255,255,.4);
+}
+
+div.card-body div.chessLogo img.chessLogoImg {
+    width: 20%;
+    opacity: 1;
+}
+
+div.titleText {
+    font-size: 30px;
+    margin-bottom: 2%;
+    margin-top: 2%;
+}
+
+input {
+    border-radius: 4px;
+    text-align: center;
+    margin: 1%;
+}
+
+.submissionButton {
+    margin-top: 2%;
+}
+
+/* Mobile */
+
+@media screen and (max-width: 800px) {
+    body div.background-img {
+        /* background-attachment: fixed; */
+        background-position: left;
+        position: fixed;
+        width: 100%;
+    }
+}
